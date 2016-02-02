@@ -1,0 +1,68 @@
+body,p,ul,h3,h4{margin:0;padding:0;}
+body{font-size:14px;font-family: "宋体";}
+a{text-decoration:none;color:#333;}
+img{border:none;}
+li{list-style:none;}
+::-webkit-scrollbar{width:1em;height:1em;}
+::-webkit-scrollbar-track {background:rgba(217,217,217,0.5)}
+::-webkit-scrollbar-thumb {background:#ccc;border-radius: 10px;}
+.search{width:800px;margin:20px auto;font-size:12px;}
+.search-cate {padding-bottom:10px;}
+.search-cate a{margin-right:20px;}
+.search-cate .search-cate-cur{color:red;}
+.search-action .search-text{width:30%;height:30px;border:1px solid #888;padding-left:5px;line-height:30px;}
+.search-action .search-btn{height:34px;}
+.search-result{padding:20px 0;}
+
+.book{position: relative;zoom:1;}
+.book-list{zoom:1;}
+.book-list li{float:left;width:23%;height:220px;padding:1%;text-align: center;list-style:none;}
+.book-list img{width:120px;height:150px;background:url(../images/loading.gif) center center no-repeat;}
+.book-list .book-name{margin-top:10px;line-height:20px;}
+.book-info{position: absolute;left:200px;top:0;width:285px;border:1px solid #888;padding:10px;line-height:30px;background:#fff;box-shadow:5px 5px 10px #ccc;}
+.book-info .book-tit{height:30px;padding-bottom:10px;font:bold 16px/30px "宋体";overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+.book-info .key,.movie-item .key,.music-item .key{font-family:simsun;width:5em;color:#666;}
+.book-info .arrow-box{position:absolute;left:-9px;top:50%;margin-top:-8px;}
+.book-info .arrow-box .arrow{position:absolute;width:17px;height:19px;font-family:"SimSun";color:#888;font-size:16px;line-height:21px;}
+.book-info .arrow-box .arrow02{left:2px;color:#fff;}
+.book-info-l .arrow-box{left:296px;}
+.book-info-l .arrow-box .arrow01{left:2px;}
+.book-info-l .arrow-box .arrow02{left:0;}
+
+.detail{width:800px;margin:20px auto;font-size:12px;}
+.detail .detail-pic{float:left;}
+.detail .detail-pic img{width:238px;}
+.detail .book-tit{padding-bottom:10px;font:bold 20px/20px "宋体";}
+.detail .detail-info{margin-left:280px;}
+.detail .detail-info p{padding-top:20px;}
+.detail .detail-info .key{font-family:simsun;width:5em;color:#666;}
+.detail-summary{zoom:1;}
+.detail-summary:after{display:block;content:'';height:0;clear:both;}
+.detail-des{padding:15px 0;line-height:26px;}
+.detail-des h3{border-bottom:1px solid #000;margin-bottom:10px;font:bold 16px/38px "宋体";}
+
+.movie .movie-item{border-bottom:1px solid #ddd;padding:10px 0;zoom:1;}
+.movie .movie-item:after,.book .book-list:after{display:block;content:'';height:0;clear:both;}
+.movie .movie-name{font:bold 16px/20px "宋体";}
+.movie .movie-pic{float:left;margin-right:20px;}
+.movie .movie-pic img{width:120px;height:160px;}
+.movie .movie-info p{padding-top:14px;}
+.movie .movie-info .key,.music .movie-info .key{color:#666;}
+
+.music-item {border-bottom:1px solid #ccc;padding:10px 0;zoom:1;}
+.music .music-item:after{display:block;content:'';height:0;clear:both;}
+.music-item .music-pic{float:left;width:120px;margin-right:20px;text-align: center;}
+.music-item img{width:100px;height:100px;margin-top:10px;margin-bottom:10px;border-radius:50%;text-align: center;}
+.music-info{float:left;width:280px;padding-top:10px;}
+.music-info p{padding-bottom:12px;}
+.music-item .val{display:inline-block;width:205px;vertical-align:-3px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+.album-info{margin-left:420px;}
+.song-list li{border-bottom:1px dotted #333;line-height:22px;}
+.music-item .album-song{padding-bottom:6px;font:bold 14px/22px "宋体";}
+.music-item .song-list{height:115px;overflow-y:auto;}
+
+.page{padding:10px 0;}
+.page .page-num{border:1px solid #aaa;padding:5px 10px;margin:0 5px;}
+.page .page-cur{border:none;color:red;}
+
+.data-loading{text-align: center;line-height:480px;}
